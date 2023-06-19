@@ -4,6 +4,7 @@
 }
 img{
     width: 100%;
+    height: 100%;
 }
 
 .heroBanner {
@@ -49,6 +50,52 @@ img{
     width: 700px;
     height: 350px;
 }
+
+.Thought-text {
+    padding: 88px;
+}
+
+.goals{
+    background-color: #EFF4FF;
+    padding: 25px;
+}
+
+.goal {
+    width: 50%;
+    padding: 19px 20px;
+}
+section.activity {
+    width: 85%;
+    margin-top: 20px;
+    position: relative;
+    margin: -87px auto;
+}
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: marquee 5s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    } 
+    
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .c-logo{
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    margin: 10px 60px;
+}
+.brands-wrap {
+    margin-top: 100px;
+}
 @media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
     .heroBanner {
         background-image: url(../images//bgBannerMobile.png);
@@ -56,4 +103,22 @@ img{
     .Thought-text{
         display: none;
     }
+
+    .video-sec  video[poster]{
+        height:100%;
+        width:100%;
+        }
+        .goal {
+            width: 50%;
+            padding: 19px 20px;
+        }
+        section.activity {
+            width: 100%;
+            margin-top: 20px;
+            position: static;
+            margin:  auto;
+        }
+        .brands-wrap {
+            margin-top: 0px;
+        }
   }
