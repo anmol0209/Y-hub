@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+
+.heroBanner {
+    background-image: url(../images/bgLine.png);
+}
+.heroBanner h1.title {
+    /* font-family: 'Exo 2'; */
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 90.8665px; */
+    /* line-height: 109px; */
+    color: #121212;
+}
+
+.button-wrap{
+    background-image: url(../images/buttonbg.png);
+    width: 140px;
+    background-position: center;
+    border-top-right-radius: 8px;
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+    border-bottom-right-radius: 8px;
+    color: white;
+} 
+.button-wrap a{
+    text-decoration: none;
+    color: white;
+}
+.why-hub-container {
+    padding: 75px 0;
+}	
+
+.text-wrap p{
+    padding: 20px 140px
+}	
+.video-sec {
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+}
+.video-sec video{
+    width: 700px;
+    height: 350px;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
+    .heroBanner {
+        background-image: url(../images//bgBannerMobile.png);
+    }
+    .Thought-text{
+        display: none;
+    }
+  }
