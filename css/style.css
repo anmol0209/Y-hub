@@ -8,13 +8,10 @@ img {
     height: 100%;
 }
 
-.burger {
-    display: none;
-    visibility: hidden;
-}
 
 .heroBanner {
     background-image: url(../images/bgLine.png);
+    height: 100vh;
 }
 
 .heroBanner h1.title {
@@ -117,131 +114,52 @@ section.about-wrap {
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
+    .heroBanner h1.title {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90.8665px;
+        line-height: 109px;
+        color: #fdfdfd;
+    }
+    p.desc {
+        font-size: 39px;
+        padding: 6px 22px;
+        color: white;
+    }   
+    .button-wrap {
+        background-image: url(../images/buttonbg.png);
+        width: auto;
+        background-position: center;
+        border-top-right-radius: 8px;
+        text-align: center;
+        padding: 15px 35px;
+        border-bottom-right-radius: 8px;
+        color: white;
+    }
+    .button-wrap a {
+        font-size: 41px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .banner-img{
+        display: none;
+    }
+    .heroBanner{
+        background-image: url(../images/bannerMobile.png);
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .text-wrapper{
         text-align: center;
         flex-wrap: wrap;
         padding: 30px;
-    }
-
-    .burger {
-        position: relative;
-        display: block;
-        cursor: pointer;
-        user-select: none;
-        order: -1;
-        z-index: 10;
-        width: 1.6rem;
-        height: 1.15rem;
-        border: none;
-        outline: none;
-        background: none;
-        visibility: visible;
-        transform: rotate(0deg);
-        transition: 0.35s ease;
-    }
-
-    .burger-line {
-        position: absolute;
-        display: block;
-        left: 0;
-        width: 100%;
-        height: 1.75px;
-        border: none;
-        outline: none;
-        opacity: 1;
-        transform: rotate(0deg);
-        background-color: var(--color-white-100);
-        transition: 0.25s ease-in-out;
-    }
-
-    .burger-line:nth-child(1) {
-        top: 0px;
-    }
-
-    .burger-line:nth-child(2) {
-        top: 0.5rem;
-        width: 70%;
-    }
-
-    .burger-line:nth-child(3) {
-        top: 1rem;
-    }
-
-    .burger.is-active .burger-line:nth-child(1) {
-        top: 0.5rem;
-        transform: rotate(135deg);
-    }
-
-    .burger.is-active .burger-line:nth-child(2) {
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    .burger.is-active .burger-line:nth-child(3) {
-        top: 0.5rem;
-        transform: rotate(-135deg);
-    }
-
-    .menu-block {
-        display: inline-block;
-        font-family: inherit;
-        font-size: 0.875rem;
-        font-weight: 500;
-        line-height: 1.25;
-        user-select: none;
-        white-space: nowrap;
-        text-align: center;
-        margin-left: auto;
-        padding: 0.65rem 1.5rem;
-        border-radius: 3rem;
-        text-transform: capitalize;
-        color: var(--color-white);
-        background-color: var(--color-blue-600);
-        box-shadow: var(--shadow-medium);
-        transition: all 0.3s ease-in-out;
-    }
-
-    .menu {
-        position: fixed;
-        top: -100%;
-        left: 0;
-        width: 100%;
-        height: auto;
-        padding: 4rem 0 3rem;
-        overflow: hidden;
-        background-color: var(--color-black-300);
-        box-shadow: var(--shadow-medium);
-        transition: all 0.4s ease-in-out;
-    }
-
-    .menu-inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        row-gap: 1.25rem;
-    }
-
-    .menu-link {
-        font-family: inherit;
-        font-size: 1rem;
-        font-weight: 500;
-        line-height: 1.5;
-        color: var(--color-white-100);
-        text-transform: uppercase;
-        transition: all 0.3s ease;
-    }
-
-    .menu.is-active {
-        top: 0;
-        width: 100%;
-        height: auto;
-    }
-
-
-
-    .heroBanner {
-        background-image: url(../images//bgBannerMobile.png);
     }
 
     .Thought-text {
@@ -272,238 +190,6 @@ section.about-wrap {
 
 
 
-/* Header */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
-
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    list-style: none;
-    list-style-type: none;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-}
-
-html {
-    font-size: 100%;
-    box-sizing: inherit;
-    scroll-behavior: smooth;
-    height: -webkit-fill-available;
-}
-
-body {
-
-    font-size: clamp(1rem, 2vw, 1.125rem);
-    font-weight: 400;
-    line-height: 1.5;
-    height: -webkit-fill-available;
-    
-}
-
-main {
-    overflow: hidden;
-}
-
-a,
-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    user-select: none;
-    background: none;
-    box-shadow: none;
-    text-decoration: none;
-}
-
-img,
-video {
-
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.section {
-    margin: 0 auto;
-    padding: 6rem 0 1rem;
-}
-
-.container {
-    max-width: 75rem;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 1.25rem;
-}
-
-.centered {
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 1rem;
-}
-
-.heading-xl {
-    font-family: inherit;
-    font-size: clamp(2.648rem, 6vw, 4.241rem);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -1px;
-}
-
-.heading-lg {
-    font-family: inherit;
-    font-size: clamp(2.179rem, 5vw, 3.176rem);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -1px;
-}
-
-.heading-md {
-    font-family: inherit;
-    font-size: clamp(1.794rem, 4vw, 2.379rem);
-    font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: -1px;
-}
-
-.heading-sm {
-    font-family: inherit;
-    font-size: clamp(1.476rem, 3vw, 1.782rem);
-    font-weight: 600;
-    line-height: 1.5;
-}
-
-.heading-xs {
-    font-family: inherit;
-    font-size: clamp(1.215rem, 2vw, 1.335rem);
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-.paragraph {
-    font-family: inherit;
-    font-size: clamp(1rem, 2vw, 1.125rem);
-    line-height: inherit;
-    max-width: 95%;
-    height: auto;
-    text-transform: unset;
-    color: var(--color-white-200);
-}
-
-.btn {
-    display: inline-block;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    user-select: none;
-    outline: none;
-    border: none;
-    border-radius: 0.25rem;
-    text-transform: unset;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-inline {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 0.5rem;
-}
-
-.btn-darken {
-    padding: 0.75rem 2rem;
-    color: var(--color-white-100);
-    background-color: var(--color-black-200);
-    box-shadow: var(--shadow-medium);
-}
-
-.btn-neutral {
-    padding: 0.75rem 2rem;
-    color: var(--color-black-500);
-    background-color: var(--color-white-100);
-    box-shadow: var(--shadow-medium);
-}
-
-.header {
-
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    transition: all 0.35s ease;
-}
-
-.header.on-scroll {
-    background: var(--color-black-300);
-    box-shadow: var(--shadow-medium);
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    column-gap: 1.25rem;
-    width: 100%;
-    height: 120px;
-    margin: 0 auto;
-}
-
-.brand {
-    font-family: inherit;
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: -1px;
-    color: var(--color-white-100);
-    text-transform: uppercase;
-    width: 160px;
-}
-
-
-.menu {
-    position: relative;
-    top: 0;
-    width: auto;
-    height: auto;
-    padding: 0rem;
-    margin-left: auto;
-    background: none;
-    box-shadow: none;
-}
-
-.menu-inner {
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-    margin: 0 auto;
-}
-
-.menu-link {
-    text-transform: capitalize;
-}
-
-.menu-block {
-    margin-left: 2rem;
-}
-a.menu-link{
-    color: #303AAE;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-}
-a.menu-link.active{ 
-    color:#DB40CC;
-}
 .app__flex input {
     max-width: 515px;
     width: 100%;
