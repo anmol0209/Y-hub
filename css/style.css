@@ -789,6 +789,9 @@ a.nav-link.active{
  .contact {
     padding-top: 100px;
  }
+ .mapAndAddress{
+    height:26vh;
+ }
 
 
  /* goals */
