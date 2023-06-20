@@ -175,10 +175,14 @@ section.about-wrap {
 
 .goal {
     width: 50%;
-    padding: 19px 20px;
+    padding: 40px;
+}
+.goalSection {
+    margin-left: 70px;
 }
 .goal h2{
     font-family: Exo-Bold;
+    margin-left: 18px;
 }
 section.activity {
     width: 85%;
@@ -213,6 +217,8 @@ section.activity {
 
 .brands-wrap {
     margin-top: 100px;
+    padding: 100px 0;
+    border-bottom: 2px solid #F6F4F3;
 }
 .goal-num{
     color: #464655;
@@ -581,19 +587,32 @@ a.nav-link.active{
     border: 2.87639px solid #E0DEDD;
     border-radius: 11.5056px;
     box-sizing: border-box;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
     padding: 12px 20px;
     font-size: 12px;
     line-height: 20px;
 }
 .subscribeBttn {
-    border: 2.88px solid;
-    border-image-slice: 1;
+    position: relative;
     max-width: 515px;
     width: 100%;
     padding: 12px 20px;
-    box-sizing: border-box;
-    border-image-source: linear-gradient(90.62deg, #AF3CB7 8.39%, #5D77CE 48.97%, #0038FD 99.95%);
+    text-transform: uppercase;
+    color: #AF3CB7;
+    font-weight: 700;
+}
+.subscribeBttn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2.88px solid transparent;
+    border-radius: 11.5056px;
+    background: linear-gradient(90.62deg, #AF3CB7 8.39%, #5D77CE 48.97%, #0038FD 99.95%);
+    -webkit-mask: /*4*/
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+          mask-composite: exclude; /*5*/
 }
 
   
@@ -644,4 +663,59 @@ a.nav-link.active{
     font-weight: 700;
     font-size: 25px;
     color: #121212;
+    margin-bottom: 20px;
  }
+ .phonenumber {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #121212;
+ }
+ .Address {
+    margin-top: 60px;
+ }
+ .Address p {
+    margin-bottom: 0;
+ }
+ .footer h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #121212;
+    margin-right: 20px;
+ }
+ .copyright {
+    margin-top: 50px;
+    padding-bottom: 50px;
+ }
+ .contact {
+    padding-top: 100px;
+ }
+ .goal1and2 .goal:first-child {
+    border-right: 1px solid #f00;
+    border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
+    border-image-slice: 1;
+    border-width: 4px;
+ }
+ .goal3and4 .goal:first-child {
+    border-right: 1px solid #f00;
+    border-image-source: linear-gradient(to top, #AF3CB7, #5D77CE, #0038FD);
+    border-image-slice: 1;
+    border-width: 4px;
+ }
+ .goal3and4 {
+    border-top: 1px solid #f00;
+ }
+ .border-gradient {
+    border: 4px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+  }
+ .only-top {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .border-gradient-green {
+    border-image-source: linear-gradient(to left, #AF3CB7, #5D77CE, #0038FD);
+  }
