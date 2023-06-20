@@ -24,7 +24,7 @@
                 </div>
                 <div class="menu" id="menu">
                     <ul class="menu-inner">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
                         <li class="menu-item"><a href="#" class="menu-link">About</a></li>
                         <li class="menu-item"><a href="#" class="menu-link">Program</a></li>
                         <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
@@ -148,8 +148,8 @@
         </marquee>
     </section>
     <section class="container contact">
-        <div class='Contact  d-inline-flex p-2'>
-            <div>
+        <div class='row Contact'>
+            <div class="col-md-4 d-flex flex-column">
                 <div>Contact</div>
                 <div class="mapAndAddress d-inline-flex p-2">
                     <div class="mapouter">
@@ -160,16 +160,15 @@
 
                         </div>
                     </div>
-                    <div class="Address">
-                        <p>Y-HUB HQ</p>
-                        <p>634 Halvarson Estates Suite 039</p>
-                        <h5>7252075049</h5>
-                        <h5>yhub.skype</h5>
-                    </div>
                 </div>
             </div>
-
-            <div class="formDiv">
+            <div class="Address col-md-4 d-flex flex-column">
+                <p>Y-HUB HQ</p>
+                <p>634 Halvarson Estates Suite 039</p>
+                <h5>7252075049</h5>
+                <h5>yhub.skype</h5>
+            </div>
+            <div class="formDiv col-md-4 d-flex flex-column">
                 <div>Subscribe With Us</div>
                 <div class="Form">
 
@@ -187,7 +186,7 @@
                             <input class="p-text" type="tel" placeholder="Your Contact No" name="tel" value={email} />
                         </div>
 
-                        <button type="submit" class="p-text">
+                        <button type="submit" class="p-text subscribeBttn">
                             Subscribe
                         </button>
                     </form>
@@ -197,6 +196,8 @@
             </div>
 
         </div>
+    </section>
+    <section class="container contact">
         <div class="footer d-inline-flex p-2">
             <h5>Y-HUB</h5> @2023 ALL RIGHTS RESERVED
         </div>

@@ -18,7 +18,7 @@ img {
 }
 
 .heroBanner h1.title {
-    /* font-family: 'Exo 2'; */
+    font-family: 'Exo 2';
     font-style: normal;
     font-weight: 700;
     /* font-size: 90.8665px; */
@@ -60,6 +60,7 @@ img {
 .video-sec video {
     width: 700px;
     height: 350px;
+    margin: 0 auto;
 }
 
 .Thought-text {
@@ -432,7 +433,6 @@ video {
     height: auto;
     margin: 0 auto;
     transition: all 0.35s ease;
-    background: black;
 }
 
 .header.on-scroll {
@@ -447,7 +447,7 @@ video {
     justify-content: flex-start;
     column-gap: 1.25rem;
     width: 100%;
-    height: 4.25rem;
+    height: 120px;
     margin: 0 auto;
 }
 
@@ -459,7 +459,7 @@ video {
     letter-spacing: -1px;
     color: var(--color-white-100);
     text-transform: uppercase;
-    width: 100px;
+    width: 160px;
 }
 
 
@@ -487,4 +487,33 @@ video {
 
 .menu-block {
     margin-left: 2rem;
+}
+a.menu-link{
+    color: #303AAE;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+a.menu-link.active{ 
+    color:#DB40CC;
+}
+.app__flex input {
+    max-width: 515px;
+    width: 100%;
+    border: 2.87639px solid #E0DEDD;
+    border-radius: 11.5056px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    padding: 12px 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.subscribeBttn {
+    border: 2.88px solid;
+    border-image-slice: 1;
+    max-width: 515px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-image-source: linear-gradient(90.62deg, #AF3CB7 8.39%, #5D77CE 48.97%, #0038FD 99.95%);
 }
