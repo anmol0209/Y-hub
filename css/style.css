@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Exo regular;
+    src: url(../fonts/Exo-Regular.ttf);
+}
+
+
 * {
     padding: 0px;
     margin: 0px;
