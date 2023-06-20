@@ -89,14 +89,20 @@ img {
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 700;
-    /* font-size: 90.8665px; */
+    font-size: 55px;
     /* line-height: 109px; */
     color: #121212;
 }
-
+.heroBanner h1.title span {
+    font-size: 40px;
+}
+p.desc {
+    font-size: 22px;
+} 
 .button-wrap {
     background-image: url(../images/buttonbg.png);
     width: 140px;
+    height:50px;
     background-position: center;
     border-top-right-radius: 8px;
     text-align: center;
@@ -107,6 +113,7 @@ img {
 
 .button-wrap a {
     text-decoration: none;
+    font-size: 22px;
     color: white;
 }
 
@@ -194,15 +201,24 @@ section.activity {
         line-height: 109px;
         color: #fdfdfd;
     }
+    .heroBanner h1.title span {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90.8665px;
+        line-height: 109px;
+        color: #fdfdfd;
+    }
     p.desc {
         font-size: 39px;
         padding: 6px 22px;
-        color: #737373;
-        text-align: left;
+        color: #fdfdfd;
+        justify-content: center;
     }   
     .button-wrap {
         background-image: url(../images/buttonbg.png);
         width: auto;
+        height:96px;
         background-position: center;
         border-top-right-radius: 8px;
         text-align: center;
@@ -211,7 +227,7 @@ section.activity {
         color: white;
     }
     .button-wrap a {
-        font-size: 41px;
+        font-size: 36px;
         text-decoration: none;
         color: white;
         font-weight: 600;
@@ -275,6 +291,16 @@ section.activity {
         background-color: #fff;
         padding-bottom: 20px
       }
+
+/* about */
+      .about-wrap .row{
+        flex-direction: column-reverse;
+      }
+      .text-wrapper .aboutdesc .notee{
+        margin-left: 18vw;
+        margin-right: 18vw;
+        justify-content: center;
+     }
 }
 
 
@@ -535,3 +561,38 @@ a.nav-link.active{
 }
 
   
+/* About Fonts */
+
+.text-wrapper .abouttitle{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #121212;
+}
+.text-wrapper .aboutdesc {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.text-wrapper .aboutdesc .notee{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+ }
+
+ /* why HUB */
+ .why-hub-container .whyHubTitle{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    background-image: url(../images/textBackground.png);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+ }
