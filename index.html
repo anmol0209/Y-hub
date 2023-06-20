@@ -5,8 +5,9 @@
     <title>Yhub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <header class="header" id="header">
             <nav class="navbar sticky-top navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+                    <a data-aos="flip-right" data-aos-duration="2000" class="navbar-brand brand" href="#"><img src="./images/logo.png" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,34 +28,35 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                            <li class="nav-item active">
+                            <li data-aos="flip-up" data-aos-duration="1000" class="nav-item active">
                                 <a class="nav-link active" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li data-aos="flip-up" data-aos-duration="1500" class="nav-item">
                                 <a class="nav-link" href="#About">About</a>
-                            <li class="nav-item">
+                            <li data-aos="flip-up" data-aos-duration="2000" class="nav-item">
                                 <a class="nav-link" href="#Programs">Programs</a>
-                            <li class="nav-item">
+                            <li data-aos="flip-up" data-aos-duration="2500" class="nav-item">
                                 <a class="nav-link" href="#Activity">Activity</a>
-                            <li class="nav-item">
+                            <li data-aos="flip-up" data-aos-duration="3000" class="nav-item">
                                 <a class="nav-link" href="#Contact">Contact</a>
                             </li>
                         </ul>
+                        <section class="heroBanner">
                     </div>
                 </div>
             </nav>
         </header>
 
         <main class=' HomePage' id="HomePage">
-            <section class="heroBanner">
                 <div class=" home-wrapper">
                     <div class="row">
-                        <div class="text-wrapper1 col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
+                        <div data-aos="fade-right"  data-aos-offset="500"
+                        data-aos-duration="1500" class="text-wrapper1 col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
                             <h1 class="title d-flex flex-column">Y-HUB is a genesis <span>towards new age
                                     learning</span></h1>
                             <p class="desc d-flex flex-column">
-                            Creating opportunities that enable
-                            develop and support the potential
+                                Creating opportunities that enable
+                                develop and support the potential
                                 of children & youth of Telangana
                             </p>
                             <div class="button-wrap">
@@ -64,7 +66,7 @@
 
                             </div>
                         </div>
-                        <div class="banner-img col-lg-6 hero-img img-wrap pe-0">
+                        <div data-aos="fade-down-left" data-aos-duration="1500" class="banner-img col-lg-6 hero-img img-wrap pe-0">
                             <img src='./images/bannerimage.png' alt="Image" class="img-fluid">
                         </div>
                     </div>
@@ -76,17 +78,17 @@
             <div class="topBorder"></div>
             <section class="about-wrap" id="About">
                 <div class="row">
-                    <div class="col-lg-6 hero-img img-wrap pe-0">
+                    <div  data-aos="fade-right" data-aos-duration="1500" class="col-lg-6 hero-img img-wrap pe-0">
                         <img src='./images/boySitting.png' alt="Image" class="img-fluid">
                     </div>
-                    <div class="text-wrapper col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
+                    <div data-aos="fade-left" data-aos-duration="1500" class="text-wrapper col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
                         <div class="abouttitle">About Y-HUB</div>
                         <div class="aboutdesc">
                             <p class="notee">The Telangana Y-HUB envisions producing a generations of innovators in
                                 every district across the state.</p>
+                            </div>
                             <p class="notee">Solutions to equip students with scalable and sustainable structures that
                                 promote sustainable innovation.</p>
-                        </div>
                         <div class="button-wrap">
                             <a href="http://" target="_blank" rel="noopener noreferrer">
                                 Learn More
@@ -100,16 +102,16 @@
                 <!-- why hub -->
             </section>
             <section class=" why-hub">
-                    <img class="topLeftCorner"src="../images/triangleBG.png" alt="">
+                <img class="topLeftCorner" src="../images/triangleBG.png" alt="">
                 <div class="why-hub-container text-center">
-                    <div class="text-wrap">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="text-wrap">
                         <div class="whyHubTitle">This is Y-HUB</div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                     </div>
-                    <div class="video-sec">
+                    <div data-aos="fade-down" data-aos-duration="1500" class="video-sec">
                         <video poster="./images/video-poster.png" controls preload="auto">
                             <source
                                 src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
@@ -125,7 +127,7 @@
     <div class="topBorder"></div>
     <section class="programs" id="Programs">
         <div class="thoughtAndPhoto d-flex flex-column flex-md-row align-items-center flex-wrap">
-            <div class="Thought-text col-lg-6 col-12 flex-md-fill .d-md-none">
+            <div data-aos="fade-right" data-aos-duration="1500" class="Thought-text col-lg-6 col-12 flex-md-fill .d-md-none">
                 <h3>
                     Beleive in yourself! Have Faith in your Abilities ! Without a humble but reasonable
                     considence
@@ -133,34 +135,36 @@
                 </h3>
                 <h6>Norman Vincent Peale</h6>
             </div>
-            <div class="Photo col-lg-6 col-12 flex-md-fill">
+            <div data-aos="fade-left" class="Photo col-lg-6 col-12 flex-md-fill">
                 <img src='./images/programGirl.png' alt="My Image" width=500px height=300px>
             </div>
         </div>
 
     </section>
     <section class="activity" id="Activity">
-        <div class="goals">
+        <div data-aos="flip-up" data-aos-duration="2000" class="goals">
             <div class="goal1and2 d-flex">
                 <div class="goal">
                     <div class="d-inline-flex">
                         <img src="./images/Favorite.png">
                         <h2>Awareness</h2>
                     </div>
-                    
-                    <div class="goalSection">  
+
+                    <div class="goalSection">
                         <p class="goal-num">01</p>
-                        Parent and Teacher workshops,capacity development and pop-up workshops</div>
+                        Parent and Teacher workshops,capacity development and pop-up workshops
+                    </div>
                 </div>
                 <div class="goal">
                     <div class="d-inline-flex">
                         <img src="./images/Headset.png">
                         <h2>Engagement</h2>
                     </div>
-                    
-                    <div class="goalSection"> 
+
+                    <div class="goalSection">
                         <p class="goal-num">02</p>
-                        Guest workshops,ecosystem meetups,summer camps and monthly challenges</div>
+                        Guest workshops,ecosystem meetups,summer camps and monthly challenges
+                    </div>
                 </div>
             </div>
             <div class="goal3and4 d-flex border-gradient-green border-gradient only-top">
@@ -169,21 +173,23 @@
                         <img src="./images/Shape.png">
                         <h2>Launch</h2>
                     </div>
-                    
-                    <div class="goalSection"> 
+
+                    <div class="goalSection">
                         <p class="goal-num">03</p>
-                        Shark Tank style pitching ,hackathons, protyping and specialized.</div>
+                        Shark Tank style pitching ,hackathons, protyping and specialized.
+                    </div>
                 </div>
                 <div class="goal col-lg-6">
                     <div class="d-inline-flex">
                         <img src="./images/Sport.png">
                         <h2>Advocacy</h2>
                     </div>
-                    
-                    <div class="goalSection"> 
+
+                    <div class="goalSection">
                         <p class="goal-num">04</p>
                         Providing co-working space for students and conducting career fairs advocacy-Providing
-                        co-working space for students and conducting career fairs</div>
+                        co-working space for students and conducting career fairs
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,7 +204,7 @@
         </marquee>
     </section>
     <!-- Contact -->
-    <section class="container contact" id="Contact">
+    <section data-aos="zoom-in-up" data-aos-duration="1500" class="container contact" id="Contact">
         <div class='row Contact'>
             <div class="col-md-4 d-flex flex-column">
                 <div class="contactPageHeadings">Contact</div>
@@ -251,48 +257,14 @@
         </div>
     </section>
     </main>
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!-- <script>
-        const navbarMenu = document.getElementById("menu");
-        const burgerMenu = document.getElementById("burger");
-        const headerMenu = document.getElementById("header");
-
-        // Open Close Navbar Menu on Click Burger
-        if (burgerMenu && navbarMenu) {
-            burgerMenu.addEventListener("click", () => {
-                burgerMenu.classList.toggle("is-active");
-                navbarMenu.classList.toggle("is-active");
-            });
-        }
-
-        // Close Navbar Menu on Click Menu Links
-        document.querySelectorAll(".menu-link").forEach((link) => {
-            link.addEventListener("click", () => {
-                burgerMenu.classList.remove("is-active");
-                navbarMenu.classList.remove("is-active");
-            });
-        });
-
-        // Change Header Background on Scrolling
-        window.addEventListener("scroll", () => {
-            if (this.scrollY >= 85) {
-                headerMenu.classList.add("on-scroll");
-            } else {
-                headerMenu.classList.remove("on-scroll");
-            }
-        });
-
-        // Fixed Navbar Menu on Window Resize
-        window.addEventListener("resize", () => {
-            if (window.innerWidth > 768) {
-                if (navbarMenu.classList.contains("is-active")) {
-                    navbarMenu.classList.remove("is-active");
-                }
-            }
-        });
-
-    </script> -->
+    <!-- JS -->
 </body>
 
 </html>
