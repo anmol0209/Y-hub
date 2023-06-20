@@ -29,13 +29,13 @@
                         <a class="nav-link active" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#About">About</a>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
+                          <a class="nav-link" href="#Programs">Programs</a>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#Activity">Activity</a>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Other</a>
+                              <a class="nav-link" href="#Contact">Contact</a>
                             </li>
                     </ul>
                   </div>
@@ -43,7 +43,7 @@
               </nav>
         </header>
 
-        <main class='HomePage'>
+        <main class='HomePage' id="HomePage">
             <section class=" d-flex align-items-center heroBanner">
                 <div class=" home-wrapper">
                     <div class="row">
@@ -66,7 +66,7 @@
 
                 </div>
             </section>
-            <section class="about-wrap">
+            <section class="about-wrap" id="About">
                 <div class="topBorder"></div>
                 <div class="row">
                     <div class="col-lg-6 hero-img img-wrap pe-0">
@@ -113,7 +113,7 @@
     </div>
 
     </section>
-    <section class="programs">
+    <section class="programs" id="Programs">
         <div class="thoughtAndPhoto d-flex flex-column flex-md-row align-items-center flex-wrap">
             <div class="Thought-text col-lg-6 col-12 flex-md-fill .d-md-none">
                 <h3>
@@ -129,7 +129,7 @@
         </div>
 
     </section>
-    <section class="activity">
+    <section class="activity" id="Activity">
         <div class="goals">
             <div class=" goal1and2 d-flex p-2 ">
                 <div class="goal">
@@ -178,7 +178,8 @@
             <img class="c-logo" src="./images/Vectorbrand1.png" alt="Logo">
         </marquee>
     </section>
-    <section class="container contact">
+    <!-- Conatact -->
+    <section class="container contact" id="Contact">
         <div class='row Contact'>
             <div class="col-md-4 d-flex flex-column">
                 <div>Contact</div>
@@ -205,16 +206,16 @@
 
 
 
-                    <form action="https://formsubmit.co/singhdhamivishal@gmail.com" method="POST"
+                    <form 
                         class="app__footer-form app__flex">
                         <div class="app__flex">
                             <input class="p-text" type="text" placeholder="Your Name" name="name" />
                         </div>
                         <div class="app__flex">
-                            <input class="p-text" type="email" placeholder="Your Email" name="email" value={email} />
+                            <input class="p-text" type="email" placeholder="Your Email" name="email">
                         </div>
                         <div class="app__flex">
-                            <input class="p-text" type="tel" placeholder="Your Contact No" name="tel" value={email} />
+                            <input class="p-text" type="tel" placeholder="Your Contact No" name="tel"  />
                         </div>
 
                         <button type="submit" class="p-text subscribeBttn">

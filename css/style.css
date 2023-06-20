@@ -1,8 +1,73 @@
 @font-face {
-    font-family: Exo regular;
+    font-family: Exo-Black;
+    src: url(../fonts/Exo-Black.ttf);
+}
+@font-face {
+    font-family: Exo-BlackItalic;
+    src: url(../fonts/Exo-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Exo-Bold;
+    src: url(../fonts/Exo-Bold.ttf);
+}
+@font-face {
+    font-family: Exo-BoldItalic;
+    src: url(../fonts/Exo-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Exo-ExtraBold;
+    src: url(../fonts/Exo-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Exo-ExtraBoldItalic;
+    src: url(../fonts/Exo-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Exo-ExtraLight;
+    src: url(../fonts/Exo-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Exo-ExtraLightItalic;
+    src: url(../fonts/Exo-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: Exo-Italic;
+    src: url(../fonts/Exo-Italic.ttf);
+}
+@font-face {
+    font-family: Exo-Light;
+    src: url(../fonts/Exo-Light.ttf);
+}
+@font-face {
+    font-family: Exo-LightItalic;
+    src: url(../fonts/Exo-LightItalic.ttf);
+}
+@font-face {
+    font-family: Exo-Medium;
+    src: url(../fonts/Exo-Medium.ttf);
+}
+@font-face {
+    font-family: Exo-MediumItalic;
+    src: url(../fonts/Exo-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Exo-Regular;
     src: url(../fonts/Exo-Regular.ttf);
 }
-
+@font-face {
+    font-family: Exo-SemiBold;
+    src: url(../fonts/Exo-SemiBold.ttf);
+}
+@font-face {
+    font-family: Exo-SemiBoldItalic;
+    src: url(../fonts/Exo-SemiBoldItalic.ttf);
+}@font-face {
+    font-family: Exo-Thin;
+    src: url(../fonts/Exo-Thin.ttf);
+}@font-face {
+    font-family: Exo-ThinItalic;
+    src: url(../fonts/Exo-ThinItalic.ttf);
+}
 
 * {
     padding: 0px;
