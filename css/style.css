@@ -654,7 +654,7 @@ a.nav-link.active{
 
  /* Horizontal BR tags */
  .topBorder{
-    background-image: url(../images/textBackground.png);
+    background-image: url(../images/hzBG.png);
     width:100vw;
     height: 1vh;
  }
