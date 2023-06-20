@@ -374,10 +374,29 @@ section.activity {
         margin-top: 41px !important;
      }
     .Contact{
-        /* flex-direction: column;
-        justify-content: center;
+        flex-direction: column;
+        /* justify-content: center;
         align-items: center; */
+     }
+     .contactPageHeadings0{
+        display: none;
+     }
+     .mapAndAddress{
+        height:28vh;
+        width:95vw;
+     }
+     .Address{
+        display: none!Important;
+    }
+    .formDiv{
+        display: none!Important;
+    }
 
+    .formMobile{
+        display: flex!Important;
+        flex-direction: column!Important;
+        align-items: center!Important;
+        
     }
 }
 
@@ -650,8 +669,31 @@ a.nav-link.active{
   -webkit-mask-composite: xor; /*5'*/
           mask-composite: exclude; /*5*/
 }
+.formMobile{
+    display: none;
+}
+.mobileEmail input {
+   
+    width: 300px;
+    height:80px ;
+    border: 2.87639px solid #E0DEDD;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 24px;
+ 
+}
+.mobileSubBtn{
+   background-color: #23A6F0;
+   width: 150px;
+   height: 80px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
+    font-family: Exo-Regular;
+}
 
-  
 /* About Fonts */
 
 .text-wrapper .abouttitle{
@@ -692,7 +734,14 @@ a.nav-link.active{
 
 
  /* Contact Page Text Style */
-
+ .contactPageHeadings0{
+    font-family: Exo-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #121212;
+    margin-bottom: 20px;
+ }
  .contactPageHeadings{
     font-family: Exo-Bold;
     font-style: normal;
