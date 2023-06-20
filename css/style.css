@@ -104,7 +104,7 @@ p.desc {
     width: 76%;
 }
 
- a
+ 
 .button-wrap {
     background-image: url(../images/buttonbg.png);
     width: 160px;
@@ -133,7 +133,7 @@ p.desc {
 }
 
 .why-hub-container {
-    padding: 75px 0;
+    padding: 0 0;
 }
 
 .text-wrap p {
@@ -250,7 +250,7 @@ section.activity {
     }   
     .button-wrap {
         background-image: url(../images/buttonbg.png);
-        width: auto;
+        width: 290px;
         height:96px;
         background-position: center;
         border-top-right-radius: 8px;
@@ -278,7 +278,7 @@ section.activity {
         background-repeat: no-repeat;
     }
 
-    .text-wrapper{
+    .text-wrapper1{
         text-align: center;
         flex-wrap: wrap;
         padding: 30px;
@@ -331,11 +331,17 @@ section.activity {
       .about-wrap .row{
         flex-direction: column-reverse;
       }
+      .text-wrapper{
+        align-items: center;
+      }
       .text-wrapper .aboutdesc .notee{
         font-family: Exo-Regular;
-        margin-left: 18vw;
-        margin-right: 18vw;
         justify-content: center;
+     }
+
+     /* trinagle image */
+     .why-hub .topLeftCorner{
+        display: none;
      }
 }
 
@@ -644,4 +650,24 @@ a.nav-link.active{
     font-weight: 700;
     font-size: 25px;
     color: #121212;
+ }
+
+ /* Horizontal BR tags */
+ .topBorder{
+    background-image: url(../images/textBackground.png);
+    width:100vw;
+    height: 1vh;
+ }
+
+ /* why hub */
+ .why-hub{
+    position: relative;
+ }
+ .why-hub .topLeftCorner{
+   position:absolute;
+   margin-left: 0px;
+   margin-top:0px;
+   width:190px;
+   height:300px;
+   
  }
