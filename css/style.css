@@ -84,7 +84,9 @@ img {
     background-image: url(../images/bgLine.png);
     height: 100vh;
 }
-
+.home-wrapper {
+    padding-left: 80px;
+}
 .heroBanner h1.title {
     font-family: 'Exo 2';
     font-style: normal;
@@ -109,6 +111,13 @@ p.desc {
     padding: 7px 0px 7px 0px;
     border-bottom-right-radius: 8px;
     color: white;
+}
+.banner-img{
+    text-align: right;
+
+}
+.banner-img img{
+    width: 450px;
 }
 
 .button-wrap a {
@@ -143,7 +152,9 @@ p.desc {
 }
 
 section.about-wrap {
-    padding: 50px 0;
+    
+    padding: 50px 100px 80px 112px;
+
     background-color: #EFF4FF;
 }
 
@@ -193,6 +204,9 @@ section.activity {
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
+    .home-wrapper {
+        padding-left: 0;
+    }
     .heroBanner h1.title {
         font-family: 'Exo 2';
         font-style: normal;
@@ -249,6 +263,7 @@ section.activity {
         flex-wrap: wrap;
         padding: 30px;
         align-items: center;
+        margin-top: 50%;
     }
 
     .Thought-text {
