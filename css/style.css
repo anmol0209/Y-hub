@@ -373,6 +373,9 @@ section.activity {
         height: 20px !important;
         margin-top: 41px !important;
      }
+     .contact{
+        padding-top: 0px!Important;
+     }
     .Contact{
         flex-direction: column;
         /* justify-content: center;
@@ -787,7 +790,7 @@ a.nav-link.active{
     margin-top: 10px;
  }
  .contact {
-    padding-top: 100px;
+    padding-top: 20px;
  }
  .mapAndAddress{
     height:26vh;
