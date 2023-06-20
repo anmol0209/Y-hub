@@ -583,7 +583,7 @@ a.nav-link.active{
     justify-content: center;
  }
 
- /* why HUB */
+ /* why HUB text style*/
  .why-hub-container .whyHubTitle{
     font-family: 'Exo 2';
     font-style: normal;
@@ -595,4 +595,16 @@ a.nav-link.active{
     background-clip: text;
     color: transparent;
 
+ }
+
+
+
+ /* Contact Page Text Style */
+
+ .contactPageHeadings{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #121212;
  }
