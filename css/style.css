@@ -160,6 +160,10 @@ p.desc {
     padding: 88px;
     font-family: Exo-Bold;
 }
+.Thought-text h6{
+    font-family: Exo-Medium;
+    color:#595959;
+}
 
 section.about-wrap {
     
@@ -349,6 +353,32 @@ section.activity {
      .why-hub .topLeftCorner{
         display: none;
      }
+     /* copyright */
+
+     .copyright {
+        justify-content: center;
+        display: flex;
+     }
+     .footer h4 {
+        font-size:  60px !important;
+     }
+     .footer span{
+        font-size: 21px !important;
+        font-family: Exo-Regular;
+        color:#595959;
+        margin-top: 30px !important;
+     }
+     .footer img{
+        width: 25px !important;
+        height: 20px !important;
+        margin-top: 41px !important;
+     }
+    .Contact{
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+
+    }
 }
 
 
@@ -664,7 +694,7 @@ a.nav-link.active{
  /* Contact Page Text Style */
 
  .contactPageHeadings{
-    font-family: 'Exo 2';
+    font-family: Exo-Bold;
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -682,21 +712,37 @@ a.nav-link.active{
     margin-top: 60px;
  }
  .Address p {
+    font-family: Exo-Regular;
+    color: #595959;
     margin-bottom: 0;
  }
- .footer h5 {
-    font-weight: 700;
-    font-size: 20px;
-    color: #121212;
-    margin-right: 20px;
- }
+
  .copyright {
+ 
     margin-top: 50px;
     padding-bottom: 50px;
+   
+ }
+ .footer h4 {
+    font-weight: 700;
+    font-size: 27px;
+    font-family: Exo-Black;
+    margin-right: 20px;
+    color:#363636;
+ }
+ .footer span{
+      
+    font-size: 14px;
+    font-family: Exo-Regular;
+    color:#595959;
+    margin-top: 10px;
  }
  .contact {
     padding-top: 100px;
  }
+
+
+ /* goals */
  .goal1and2 .goal:first-child {
     border-right: 1px solid #f00;
     border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
@@ -746,3 +792,4 @@ a.nav-link.active{
    height:300px;
    
  }
+
