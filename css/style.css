@@ -88,7 +88,7 @@ img {
     padding-left: 80px;
 }
 .heroBanner h1.title {
-    font-family: 'Exo 2';
+    font-family: Exo-Bold;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -96,21 +96,26 @@ img {
     color: #121212;
 }
 .heroBanner h1.title span {
+    font-family: Exo-Bold;
     font-size: 40px;
 }
 p.desc {
-    font-size: 22px;
-} 
+    font-size: 20px;
+    width: 76%;
+}
+
+ a
 .button-wrap {
     background-image: url(../images/buttonbg.png);
-    width: 140px;
-    height:50px;
+    width: 160px;
+    height: 50px;
     background-position: center;
     border-top-right-radius: 8px;
-    text-align: center;
-    padding: 7px 0px 7px 0px;
     border-bottom-right-radius: 8px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .banner-img{
     text-align: right;
@@ -122,8 +127,9 @@ p.desc {
 
 .button-wrap a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 16px;
     color: white;
+    font-family: Exo-Bold;
 }
 
 .why-hub-container {
@@ -133,7 +139,10 @@ p.desc {
 .text-wrap p {
     padding: 20px 140px
 }
-
+.why-hub-container .text-wrap p{
+    font-family: Exo-Regular;
+    padding: 20px 140px
+}
 .video-sec {
     width: 700px;
     height: 400px;
@@ -149,6 +158,7 @@ p.desc {
 
 .Thought-text {
     padding: 88px;
+    font-family: Exo-Bold;
 }
 
 section.about-wrap {
@@ -167,7 +177,9 @@ section.about-wrap {
     width: 50%;
     padding: 19px 20px;
 }
-
+.goal h2{
+    font-family: Exo-Bold;
+}
 section.activity {
     width: 85%;
     margin-top: 20px;
@@ -202,13 +214,19 @@ section.activity {
 .brands-wrap {
     margin-top: 100px;
 }
+.goal-num{
+    color: #464655;
+    font-family: exo;
+    font-family: Exo-Black;
+}
+
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
     .home-wrapper {
         padding-left: 0;
     }
     .heroBanner h1.title {
-        font-family: 'Exo 2';
+        font-family: Exo-Bold;
         font-style: normal;
         font-weight: 700;
         font-size: 90.8665px;
@@ -216,7 +234,7 @@ section.activity {
         color: #fdfdfd;
     }
     .heroBanner h1.title span {
-        font-family: 'Exo 2';
+        font-family: Exo-Bold;
         font-style: normal;
         font-weight: 700;
         font-size: 90.8665px;
@@ -224,6 +242,7 @@ section.activity {
         color: #fdfdfd;
     }
     p.desc {
+        
         font-size: 39px;
         padding: 6px 22px;
         color: #fdfdfd;
@@ -241,6 +260,7 @@ section.activity {
         color: white;
     }
     .button-wrap a {
+        font-family: Exo-Black;
         font-size: 36px;
         text-decoration: none;
         color: white;
@@ -312,6 +332,7 @@ section.activity {
         flex-direction: column-reverse;
       }
       .text-wrapper .aboutdesc .notee{
+        font-family: Exo-Regular;
         margin-left: 18vw;
         margin-right: 18vw;
         justify-content: center;
@@ -579,7 +600,7 @@ a.nav-link.active{
 /* About Fonts */
 
 .text-wrapper .abouttitle{
-    font-family: 'Exo 2';
+    font-family: Exo-ExtraBold;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -594,13 +615,14 @@ a.nav-link.active{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    font-size: 22px;
+    font-size: 18px;
     justify-content: center;
+    font-family: Exo-Regular;
  }
 
  /* why HUB text style*/
  .why-hub-container .whyHubTitle{
-    font-family: 'Exo 2';
+    font-family: Exo-ExtraBold;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
