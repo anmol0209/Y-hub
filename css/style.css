@@ -79,6 +79,9 @@ img {
     height: 100%;
 }
 
+.logo{
+    width: 52px;
+}
 
 .heroBanner {
     background-image: url(../images/bgLine.png);
