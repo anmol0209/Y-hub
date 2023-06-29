@@ -111,8 +111,8 @@ img {
 .heroBanner {
     background-image: url(../images/bgLine.png);
     background-repeat: no-repeat;
-    background-size: 145%;
-    height: 100vh;
+    background-size: 125%;
+    height: 85vh;
 }
 
 .home-wrapper {
@@ -161,7 +161,7 @@ p.desc {
     font-size: 16px;
     color: white;
     font-family: Exo-Bold;
-
+    text-transform: uppercase;
 }
 
 .button-wrap:hover {
@@ -174,7 +174,7 @@ p.desc {
 }
 
 .banner-img img {
-    max-width: 29rem;
+    max-width: 34rem;
     width: 100%;
 }
 
@@ -588,7 +588,7 @@ a.nav-link.active {
 
 .subscribeBttn:hover {
 
-    background-position: top;
+    opacity: .9;
 }
 
 .formMobile {
@@ -647,7 +647,9 @@ a.nav-link.active {
     font-size: 55px;
     color: #121212;
 }
-
+.about-wrap .text-wrapper {
+    padding-top: 7rem!important;
+}
 .text-wrapper .aboutdesc {
     display: flex;
     flex-direction: column;
@@ -749,13 +751,15 @@ a.nav-link.active {
 
 
 /* goals */
+.goal {
+    min-height: 270px;
+}
 .goal1and2 .goal:first-child {
     border-right: 1px solid #f00;
     border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
     border-image-slice: 1;
     border-width: 4px;
 }
-
 .goal3and4 .goal:first-child {
     border-right: 1px solid #f00;
     border-image-source: linear-gradient(to top, #AF3CB7, #5D77CE, #0038FD);
