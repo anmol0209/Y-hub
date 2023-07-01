@@ -213,8 +213,19 @@ p.desc {
 }
 
 .why-hub-container .text-wrap p {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
     font-family: Exo-Regular;
-    padding: 20px 140px
+    padding: 20px 140px;
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 20px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -0.571px; 
 }
 
 .video-sec {
@@ -812,9 +823,271 @@ a.nav-link.active {
 .copyright .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+     justify-content: space-between;
 }
 
+/* Administration */
+.administration{
+    position: relative;
+    background-color: #EFF4FF;
+}
+.administration .topLeftCorner{
+position: absolute;
+margin-left: 0px;
+margin-top: 0px;
+width: 190px;
+height: 300px;
+}
+.adminWrap{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminWrap  h3{
+    padding-top: 70px;
+    font-family: Exo-SemiBold;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;  
+}
+.adminNote1{
+    padding-top:49px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 28.561px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: -0.571px;
+}
+.adminNote2{
+    padding-top:49px;
+    display: flex;
+    height: 80.72px;
+flex-direction: column;
+flex-shrink: 0;
+color: #5A5A5A;
+text-align: center;
+font-size: 24.913px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: -0.498px;
+}
+
+.adminNote3{
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.adminNote3 .No{
+padding:30px;
+border-right: 1px solid #f00;
+    border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
+    border-image-slice: 1;
+    border-width: 4px;
+}
+.No2{
+     padding:30px;  
+}
+ .grp-num{
+    color: #464655;
+    font-family: exo;
+    font-family: Exo-Black;
+    display: flex;
+    justify-content: center;
+}
+ .grp-note{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #5A5A5A;
+text-align: center;
+font-size: 24.913px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: -0.498px; 
+}
+.adminNote4{
+display: flex;
+flex-direction: column;
+flex-shrink: 0; 
+padding-top: 80px;
+padding-bottom: 45px;
+color: #5A5A5A;
+text-align: center;
+font-size: 28.561px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 700;
+line-height: 180%;
+letter-spacing: -0.571px; 
+}
+
+
+/* YHUB MODEL */
+.yhub-Model{
+    background-color: #EFF4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yhub-Model h1{
+    padding-top: 49px;
+    color: #121212;
+    font-size: 63.012px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.yhub-Model .phasess{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 55px;
+}
+.yhub-Model .phase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    width: 30vw;
+}
+.phase img{
+    width: 72.747px;
+height: 72.747px;
+flex-shrink: 0; 
+}
+.phase h2{
+    color: #121212;
+font-size: 43.848px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.phase p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0; 
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 26.552px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.modelNote{
+margin:45px;
+display: flex;
+flex-direction: column;
+flex-shrink: 0; 
+color: #3D3D3D;
+text-align: center;
+font-size: 25.91px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 700;
+line-height: 39.862px; 
+}
+.phasess .phase2{
+    border-right: 1px solid #f00;
+    border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
+    border-image-slice: 1;
+    border-width: 4px;
+    border-left: 1px solid #f00;
+    border-image-source: linear-gradient(to bottom, #AF3CB7, #5D77CE, #0038FD);
+    border-image-slice: 1;
+    border-width: 4px;
+}
+
+/* vision design */
+
+.yhub-Vision{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.yhub-Vision h1{
+    padding-top: 49px;
+    color: #121212;
+    font-size: 63.012px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.yhub-Vision img{
+    margin: 49px;
+    width: 775.308px;
+    height: 101.647px;
+    flex-shrink: 0; 
+}
+.yhub-Vision .visionParaContainer{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visionPara1{
+    display: flex;
+    width: 834.104px;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 26.552px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.visionPara2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 25.91px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.862px;
+}
+.visionPara3{
+    padding-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #0148A9;
+    text-align: center;
+    font-size: 25.91px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.862px; 
+}
 @media only screen and (min-device-width: 300px) and (max-device-width: 769px) {
     .home-wrapper {
         padding-left: 0;
@@ -1023,3 +1296,4 @@ a.nav-link.active {
 
     }
 }
+
